@@ -1,0 +1,51 @@
+body {
+	font-family: 'poiret One', cursive;
+	color: black;
+	background: url("Site_Images/light_wood.jpg"), repeat;
+}
+
+h1 {
+	font-size: 2.25em; 
+}
+
+h2 {
+	font-size: 1.6em; 
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+.container {
+	width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company_name {
+	text-align: center; 
+}
+
+.header_address {
+	text-align: right;
+}
+
+nav button:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+nav a:link {
+	text-decoration: none; 
+	color: black;
+}
+
+nav button {
+	font-size: 1.3em; 
+	font-family: 'poiret One', cursive; 
+	border-radius: 10px; 
+	background-color: #BBB1F0;
+}
+
+
