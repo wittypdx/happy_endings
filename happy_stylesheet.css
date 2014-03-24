@@ -48,4 +48,27 @@ nav button {
 	background-color: #BBB1F0;
 }
 
+.reviews {
+	float: left;
+	width: 22.22%;
+	min-width: 200px; 
+	margin: 7% 3.33% 3.33% 0px; 
+	padding: 3.33%;
+	background: url("Site_Images/roses1.png"), repeat;
+	border-radius: 10px; 
+}
+
+.reviews p {
+	font-style: italic;
+	font-weight: bold; 
+}
+
+article {
+	float: left;
+	max-width: 550px;
+	width: 61.11%;
+	margin-top: 30px;
+	margin-left: 30px;  
+}
+
 
