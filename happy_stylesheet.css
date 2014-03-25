@@ -63,13 +63,21 @@ nav button {
 }
 
 article {
-	float: left;
-	max-width: 750px;
+float: right;
+width: 68%;
+margin-top: 3.33%; 
+margin-bottom: 7%;
+height: 500px; 
+overflow: scroll;
+	
+/*	float: left;
+	max-width: 750px; 
 	width: 68.18%;
 	height: 500px; 
 	overflow: scroll; 
 	margin-top: 3.33%;
-	margin-left: 3.33%;  
+	margin-left: 3.33%; 
+	margin-bottom: 7%; */
 }
 
 article p {
@@ -77,5 +85,5 @@ article p {
 }
 
 footer {
-	margin-top: 30px;
+	text-align: center;
 }
