@@ -63,12 +63,7 @@ nav button {
 }
 
 article {
-float: right;
-width: 68%;
-margin-top: 3.33%; 
-margin-bottom: 7%;
-height: 500px; 
-overflow: scroll;
+padding-top: 3.33%;
 	
 /*	float: left;
 	max-width: 750px; 
