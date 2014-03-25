@@ -52,39 +52,81 @@
 		            </ul>
 				</li>
 			</ul>
-<!-- 			<table width="60%" style="margin:auto;">
-				<tr>
-					<td> 
-						<button><a href="Offerings.html">Offerings</a>
-						</button>
-					</td>
-					<td>
-						<button><a href="Contact.html">Contact</a></button>
-					</td>
-					<td>
-						<button><a href="Feedback.html">Feedback</a></button>
-					</td>
-					<td>
-						<button><a href="Links.html">Links</a></button>
-					</td>
-				</tr>
-			</table> -->
 		</nav>	
 	<div class="main">	
 		<section class="reviews">
 			<img src="Site_Images/massage_1.jpg" alt="review pics" width="200" style="margin:auto;">
 			<p>"I love Happy Endings! It's a nice little spot that feels very comforting when you enter. I've been to other studios that feel really crammed and/or trying too hard to be 'relaxing'...  But this spot really does feel nice and inviting."<br><br>~ Joe Schmoe</p>
 		</section>
-		<article>
-				<h2>About Us</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, excepturi, officiis aut expedita maiores sit reprehenderit impedit praesentium cupiditate voluptatibus molestiae laudantium corporis ipsum. Illo eveniet saepe hic adipisci consequatur.
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, tempora, a, ratione in explicabo perferendis quis voluptate fugit saepe quo itaque ducimus repellendus repudiandae cum optio. Tenetur, sint autem amet!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quaerat, voluptatibus atque assumenda cumque accusantium hic nisi quisquam a veniam pariatur maiores fugiat delectus fugit architecto explicabo inventore recusandae rem.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, illo quae rem vero earum quia laudantium harum eaque obcaecati distinctio molestiae reiciendis quisquam reprehenderit quos veritatis. Quas, rerum enim illum!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, repudiandae, saepe, maiores, amet ratione harum suscipit atque beatae eveniet illum qui praesentium labore minima. Laudantium itaque ipsa nostrum dolores consequatur!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, laudantium, soluta magnam impedit rem iusto molestiae laborum. Nesciunt, voluptas, nulla voluptatem fugit rem tenetur dolor necessitatibus illum fuga porro odio.</p>
-		</article>
-	</div>
+<div class="articles">
+          <article>
+              <div class="article_heading">
+               <h1>This article has a form</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
+              </div>
+              <div class="article_content">
+                <p>This is an article paragraph and other stuff.</p>
+                
+                <form method="post" action="http:form-echo.herokuapp.com/form-echo">
+                  <table class="form_field_table">
+                    <tr>
+                      <td width="29%">Did you have a positive experience?</td>
+                      <td width="71%">
+                         <input type="radio" name="fun" value="yes" checked /> Yes<br />
+						 <input type="radio" name="fun" value="no" /> No<br />
+                      </td>           
+                    </tr>
+                    <tr>
+                      <td width="29%">Would you recommend us to a friend?</td>
+                      <td width="71%">
+                         <input type="radio" name="friend" value="yes" checked /> Yes<br />
+						 <input type="radio" name="friend" value="no" /> No<br />
+                      </td>           
+                    </tr>
+                    <tr>
+                      <td width="29%">Do you want me to contact you to set up another appointment?</td>
+                      <td width="71%">
+                         <input type="radio" name="apt" value="yes" checked /> Yes<br />
+						 <input type="radio" name="apt" value="no" /> No<br />
+                      </td>           
+                    </tr>
+                    <tr>
+                      <td width="29%">Your name: </td>
+                      <td width="71%">
+                        <input type="text" name="customer_name" size="40" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="29%">Your phone:</td>
+                      <td width="71%">
+                        <input type="text" name="customer_phone" size="40" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="29%">Your email:</td>
+                      <td width="71%">
+                        <input type="text"  name="recipient" value="me@example.com" size="40" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="29%">Message:</td>
+                      <td width="71%">
+                        <textarea name="customer_message" rows="7" cols="50"> </textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="29%">&nbsp</td>
+                      <td width="71%">
+                        <div class="buttons">
+                          <a href="#">Never mind</a>  <input name="submit" type="submit" value="Send us feedback" />
+                        </div> 
+                      </td>           
+                    </tr>
+                  </table> 
+
+                </form>
+              </div>    
+          </article>
+        </div>
 	
 	<footer>
 		<div style="margin:auto;">
@@ -93,6 +135,10 @@
 		</div>
 		<p>Copyright &copy; 2014 Happy Endings Massage</p>
 	</footer>
+	<form>
+	
+		<select><option value="Tian">Tian</option></select>
+	</form>
 	</div>
 </body>
 </html>

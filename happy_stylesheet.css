@@ -75,7 +75,7 @@ nav ul li {
 	float: right;
 }
 
-nav ul li: hover {
+nav ul li:hover {
 	background: #4b545f;
 }
 
@@ -111,7 +111,7 @@ nav ul ul li a:hover {
 }
 nav a.selected, nav a:hover {
   color: #32673f;
-  background: #757575;
+  background: #4b545f;
 }
 
 /*nav ul {
