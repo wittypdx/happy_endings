@@ -17,9 +17,9 @@ h3 {
 }
 .container {
 	width: 100%;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+  	max-width: 1100px;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .company_name {
@@ -30,9 +30,49 @@ h3 {
 	text-align: right;
 }
 
-nav button:hover {
+header {
+	clear: both;
+}
+
+.main {
+  	overflow: hidden;
+  	height: auto;
+  	clear: both;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 0;
+ 	padding: 0 1em;
+ 	background: #FF7DB3;
+ 	height: 3em;
+ 	color: white;
+}
+
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+/*nav button:hover {
 	text-decoration: underline;
-	color: white;
+	font-color: white;
 }
 
 nav a:link {
@@ -45,7 +85,7 @@ nav button {
 	font-family: 'poiret One', cursive; 
 	border-radius: 10px; 
 	background-color: #FF7DB3;
-}
+}*/
 
 .reviews {
 	float: left;
@@ -86,4 +126,5 @@ article p {
 
 footer {
 	text-align: center;
+	clear: both;
 }
