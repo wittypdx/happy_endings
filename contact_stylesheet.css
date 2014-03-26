@@ -1,5 +1,6 @@
 .googlemap {
 	max-width: 45%;
+	text-align: center;
 	margin: 0 auto;
 	border-radius: 10%;
 }
