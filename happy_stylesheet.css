@@ -170,6 +170,7 @@ nav button {
 	background-color: #FF7DB3;
 }*/
 
+
 .reviews {
 	float: left;
 	width: 18.18%; /*200px*/
@@ -200,6 +201,10 @@ padding-top: 3.33%;
 
 article p {
 	font-size: 1.1em; 
+}
+
+.article_content {
+	font-size: 1.3em;
 }
 
 footer {
