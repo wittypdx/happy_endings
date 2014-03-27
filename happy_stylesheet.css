@@ -22,13 +22,41 @@ h3 {
   margin-right: auto;
 }
 
-.company_name {
+.top_of_page {
+	text-align: center; 	
+}
+
+.top_of_page ul {
+	list-style: none; 
+}
+
+.top_of_page li {
+	display: inline-block;
+	margin: 0 3%;
+}
+
+nav {
+	text-align: center; 
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block; 
+	margin: 0 2.5%
+
+}
+/*.company_name {
 	text-align: center; 
 }
 
 .header_address {
 	text-align: right;
 }
+*/
+
 
 nav button:hover {
 	text-decoration: underline;
@@ -64,6 +92,7 @@ nav button {
 
 article {
 padding-top: 3.33%;
+padding-bottom: 3.33%
 	
 /*	float: left;
 	max-width: 750px; 
