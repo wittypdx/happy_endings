@@ -22,12 +22,31 @@ h3 {
   margin-right: auto;
 }
 
-.company_name {
-	text-align: center; 
+.top_of_page {
+text-align: center;
 }
 
-.header_address {
-	text-align: right;
+.top_of_page ul {
+list-style: none;
+}
+
+.top_of_page li {
+display: inline-block;
+margin: 0 3%;
+}
+
+nav {
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin: 0 2.5%
+
 }
 
 nav button:hover {
