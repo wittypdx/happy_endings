@@ -1,6 +1,14 @@
 .googlemap {
 	max-width: 45%;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	border-radius: 10%;
+}
+
+#map {
+	text-align: center;
+}
+
+#contactdetails li {
+	margin-left: 50px;
 }
