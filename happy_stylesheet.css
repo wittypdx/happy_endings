@@ -23,7 +23,37 @@ h3 {
 }
 
 .top_of_page {
+<<<<<<< HEAD
 text-align: center;
+=======
+	text-align: center; 	
+}
+
+.top_of_page ul {
+	list-style: none; 
+}
+
+.top_of_page li {
+	display: inline-block;
+	margin: 0 3%;
+}
+
+nav {
+	text-align: center; 
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block; 
+	margin: 0 2.5%
+
+}
+/*.company_name {
+	text-align: center; 
+>>>>>>> master
 }
 
 .top_of_page ul {
@@ -48,6 +78,8 @@ display: inline-block;
 margin: 0 2.5%
 
 }
+*/
+
 
 nav button:hover {
 	text-decoration: underline;
