@@ -23,7 +23,7 @@ h3 {
 }
 
 .top_of_page {
-	text-align: center; 	
+text-align: center;	
 }
 
 .top_of_page ul {
@@ -46,16 +46,7 @@ nav ul {
 nav li {
 	display: inline-block; 
 	margin: 0 2.5%
-
 }
-/*.company_name {
-	text-align: center; 
-}
-
-.header_address {
-	text-align: right;
-}
-*/
 
 
 nav button:hover {
@@ -92,7 +83,7 @@ nav button {
 
 article {
 padding-top: 3.33%;
-padding-bottom: 3.33%;
+
 	
 /*	float: left;
 	max-width: 750px; 
