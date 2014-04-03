@@ -12,3 +12,11 @@
 #contactdetails li {
 	margin-left: 50px;
 }
+
+.reviews img {
+	border-radius: 10%;
+	/*max-width: 80%;*/
+	/*width: 200px;*/
+	/*max-width: 90%;*/
+	/*margin: auto;*/
+}
