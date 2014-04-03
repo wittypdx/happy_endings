@@ -14,3 +14,9 @@ article a:hover {
 	font-weight: bold;
 	color: #E80C7A;
 }
+
+
+footer {
+	text-align: center;
+	padding-top: 5%;
+}
