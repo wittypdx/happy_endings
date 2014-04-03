@@ -17,145 +17,41 @@ h3 {
 }
 .container {
 	width: 100%;
-  	max-width: 1100px;
-  	margin-left: auto;
-  	margin-right: auto;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.company_name {
+.top_of_page {
+text-align: center;	
+}
+
+.top_of_page ul {
+	list-style: none; 
+}
+
+.top_of_page li {
+	display: inline-block;
+	margin: 0 3%;
+}
+
+nav {
 	text-align: center; 
 }
 
-.header_address {
-	text-align: right;
-}
-
-header {
-	clear: both;
-}
-
-.main {
-  	overflow: hidden;
-  	height: auto;
-  	clear: both;
-}
-
-nav ul ul {
-	display: none;
-}
-
-nav ul li:hover > ul {
-	display: block;
-}
-
-nav {
-	float: right;
-}
-
-nav a {
-	color: #bdc3c7;
-}
-
 nav ul {
-	background: #FF7DB3;
-	padding: 0 20px;
-	border-radius: 10px;  
 	list-style: none;
-	position: relative;
-	display: inline-table;
 }
 
-nav ul:after {
-	content: "";
-	clear: both;
-	display: block;
+nav li {
+	display: inline-block; 
+	margin: 0 2.5%
 }
 
-nav ul li {
-	float: right;
-}
 
-nav ul li:hover {
-	background: #4b545f;
-}
-
-nav ul li:hover a {
-	color: #fff;
-
-}
-	
-nav ul li a {
-	display: block; 
-	padding: 25px 40px;
-	text-decoration: none;
-}
-
-nav ul ul {
-	background: #5f6975; 
-	border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
-}
-nav ul ul li {
-	float: none; 
-	border-top: 1px solid #6b727c;
-	border-bottom: 1px solid #575f6a;
-	position: relative;
-}
-
-nav ul ul li a {
-	padding: 15px 40px;
-}	
-
-nav ul ul li a:hover {
-	background: #4b545f;
-}
-nav a.selected, nav a:hover {
-  color: #32673f;
-  background: #4b545f;
-}
-
-/*nav ul {
-	display: inline-block;
-	text-align: center;
-}
-
-nav {
-	margin: 0;
-	padding: 0 1em;
-	height: 3em;
-	list-style: none;
-	float: right;
-}
-
-nav a {
-	text-decoration: none;
-	margin: 0;
- 	padding: 0 1em;
- 	background: #FF7DB3;
- 	height: 3em;
- 	color: white;
- 	font-size: 20px;
- 	border-radius: 5px;
-}
-
-nav a.selected, nav a:hover {
-  color: #32673f;
-  background: #fff;
-}
-
-nav ul ul {
-  display: none;
-  position: relative;
-}
-
-nav ul li:hover > ul {
-  display: block;
-
-}*/
-
-/*nav button:hover {
+nav button:hover {
 	text-decoration: underline;
-	font-color: white;
+	color: white;
 }
 
 nav a:link {
@@ -168,8 +64,7 @@ nav button {
 	font-family: 'poiret One', cursive; 
 	border-radius: 10px; 
 	background-color: #FF7DB3;
-}*/
-
+}
 
 .reviews {
 	float: left;
@@ -188,7 +83,8 @@ nav button {
 
 article {
 padding-top: 3.33%;
-	
+
+
 /*	float: left;
 	max-width: 750px; 
 	width: 68.18%;
@@ -203,11 +99,6 @@ article p {
 	font-size: 1.1em; 
 }
 
-.article_content {
-	font-size: 1.3em;
-}
-
 footer {
 	text-align: center;
-	clear: both;
 }
