@@ -114,10 +114,21 @@ font-weight: bold;
 	padding-top: 3.33%;
 	padding-bottom: 3.33%;
 	display: inline-block;
-	width: 71%
+	width: 71%;
+	background: purple;
+	margin-bottom: 20px
 
+}
+
+
+.socialmedia {
+	background: yellow;
 }
 
 footer {
 	text-align: center;
+	background: orange;
+	margin-left: 28%;
+	padding-bottom: .5%;
 }
+

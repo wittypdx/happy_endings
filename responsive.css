@@ -1,11 +1,21 @@
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 748px) {
 
 .services {
 width: 100%;
 text-align: center;
+background: red;
 }
 
 .reviews {
 width: 50%;
-margin: 0 25% 50px 22%;
+margin: 0 25% 50px 21.5%;
+background: blue;
 }
+
+footer {
+	background: green;
+	margin: auto;
+}
+
+}
+
