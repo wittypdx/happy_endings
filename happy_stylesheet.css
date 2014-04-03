@@ -18,9 +18,9 @@ h3 {
 
 .container {
 	width: 100%;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .top_of_page {
@@ -49,15 +49,6 @@ nav li {
 	margin: 0 2.5%
 
 }
-/*.company_name {
-	text-align: center; 
-}
-
-.header_address {
-	text-align: right;
-}
-*/
-
 
 nav button:hover {
 	text-decoration: underline;
@@ -77,13 +68,18 @@ nav button {
 }
 
 .reviews {
-	float: left;
-	width: 18.18%; /*200px*/
-	min-width: 200px; 
+	display: inline-block;
+	width: 18.18%; 
 	margin: 7% 3.33% 3.33% 0px; 
 	padding: 3.33%;
 	background: url("Site_Images/roses1.png"), repeat;
-	border-radius: 10px; 
+	border-radius: 10px;
+	float: left;
+
+}
+
+.reviews img {
+	width: 100%;
 }
 
 .reviews p {
@@ -96,18 +92,30 @@ padding-top: 3.33%;
 
 padding-bottom: 3.33%;
 
-/*	float: left;
+	/*float: left;
 	max-width: 750px; 
 	width: 68.18%;
 	height: 500px; 
 	overflow: scroll; 
 	margin-top: 3.33%;
 	margin-left: 3.33%; 
-	margin-bottom: 7%; */
+	margin-bottom: 7%;*/ 
 }
 
 article p {
 	font-size: 1.1em; 
+}
+
+.services h3 {
+font-weight: bold;
+}
+
+.services {
+	padding-top: 3.33%;
+	padding-bottom: 3.33%;
+	display: inline-block;
+	width: 71%
+
 }
 
 footer {

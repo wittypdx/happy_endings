@@ -1,0 +1,11 @@
+@media screen and (max-width: 660px) {
+
+.services {
+width: 100%;
+text-align: center;
+}
+
+.reviews {
+width: 50%;
+margin: 0 25% 50px 22%;
+}
