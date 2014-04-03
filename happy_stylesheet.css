@@ -115,7 +115,6 @@ font-weight: bold;
 	padding-bottom: 3.33%;
 	display: inline-block;
 	width: 71%;
-	background: purple;
 	margin-bottom: 20px
 
 }
@@ -125,18 +124,13 @@ font-weight: bold;
 	padding-bottom: 3.33%;
 	display: inline-block;
 	width: 71%;
-	background: purple;
 	margin-bottom: 20px
 
 }
 
-.socialmedia {
-	background: yellow;
-}
 
 footer {
 	text-align: center;
-	background: orange;
 	margin-left: 28%;
 	padding-bottom: .5%;
 }
