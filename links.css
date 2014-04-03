@@ -14,3 +14,7 @@ article a:hover {
 	font-weight: bold;
 	color: #E80C7A;
 }
+
+article {
+padding-top: 3.33%;
+padding-bottom: 5%;
