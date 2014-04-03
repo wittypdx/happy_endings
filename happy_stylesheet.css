@@ -47,8 +47,8 @@ nav ul {
 nav li {
 	display: inline-block; 
 	margin: 0 2.5%
-
 }
+
 
 nav button:hover {
 	text-decoration: underline;
@@ -90,9 +90,14 @@ nav button {
 article {
 padding-top: 3.33%;
 
+<<<<<<< HEAD
+
+/*	float: left;
+=======
 padding-bottom: 3.33%;
 
 	/*float: left;
+>>>>>>> master
 	max-width: 750px; 
 	width: 68.18%;
 	height: 500px; 
