@@ -1,5 +1,5 @@
 .googlemap {
-	max-width: 45%;
+	max-width: 65%;
 	text-align: left;
 	margin: 0 auto;
 	border-radius: 10%;
@@ -10,7 +10,7 @@
 }
 
 #contactdetails li {
-	margin-left: 50px;
+	margin-left: 0px;
 }
 
 .reviews img {
