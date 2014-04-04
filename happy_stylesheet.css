@@ -1,3 +1,30 @@
+.top_of_page {
+	text-align: center; 	
+}
+
+.top_of_page ul {
+	list-style: none; 
+}
+
+.top_of_page li {
+	display: inline-block;
+	margin: 0 3%;
+}
+
+nav {
+	text-align: center; 
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block; 
+	margin: 0 2.5%
+
+}
+
 body {
 	font-family: 'poiret One', cursive;
 	color: black;
@@ -90,7 +117,6 @@ nav button {
 article {
 padding-top: 3.33%;
 
-<<<<<<< HEAD
 
 /*	float: left;
 =======
@@ -139,4 +165,3 @@ footer {
 	margin-left: 28%;
 	padding-bottom: .5%;
 }
-
