@@ -3,11 +3,13 @@
 .services {
 width: 100%;
 text-align: center;
+/*background-color: blue;*/
 }
 
 .reviews {
 width: 50%;
 margin: 0 25% 50px 21.5%;
+/*background-color: green;*/
 }
 
 .about {
