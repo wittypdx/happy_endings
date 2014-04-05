@@ -82,7 +82,7 @@ nav button:hover {
 	color: white;
 }
 
-nav a:link {
+nav a:link, nav a:visited {
 	text-decoration: none; 
 	color: black;
 }
@@ -146,8 +146,7 @@ font-weight: bold;
 	padding-bottom: 3.33%;
 	display: inline-block;
 	width: 71%;
-	margin-bottom: 20px
-
+	margin-bottom: 20px;
 }
 
 .about {
@@ -156,7 +155,6 @@ font-weight: bold;
 	display: inline-block;
 	width: 71%;
 	margin-bottom: 20px
-
 }
 
 
